@@ -42,7 +42,7 @@ export const createProfile = (
     });
     dispatch(setAlert(edit ? "Profile Updated" : "Pofile Created", "success"));
 
-    if (!edit) {
+    if (edit) {
       history.push("/dashboard");
     }
   } catch (err) {
