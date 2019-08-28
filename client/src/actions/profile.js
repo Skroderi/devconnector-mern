@@ -53,7 +53,7 @@ export const getProfileById = userId => async dispatch => {
     const res = await axios.get(`/api/profile/user/${userId}`);
 
     dispatch({
-      type: GET_PROFILES,
+      type: GET_PROFILE,
       payload: res.data
     });
   } catch (err) {
@@ -90,7 +90,7 @@ export const createProfile = (
 ) => async dispatch => {
   try {
     const config = {
-      headrs: {
+      headers: {
         "Content-Type": "application/json"
       }
     };
