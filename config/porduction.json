@@ -1,0 +1,6 @@
+{
+  "mongoURI": "mongodb+srv://bota:admin123@cluster0-cgttz.mongodb.net/test?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "41a25ac6e47ef3a224b7",
+  "githubSecret": "ac2b027003030b32e56e8342c65632d6bf50f321"
+}
